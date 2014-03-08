@@ -1,0 +1,140 @@
+﻿body 
+{
+   background: #fff; 
+   width: auto;
+   height: auto;
+}
+body,div,p,table,tr,td,ul,li, h1, h2,h3
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    background: url("images/bg.jpg") no-repeat ;
+    width: 1050px;
+    height: 570px;
+    margin: 0 auto;
+}
+.menu
+{
+    width: 1050px;
+    height: 150px;
+    background: url("images/top.jpg") no-repeat;
+    overflow: hidden;
+}
+.menu ul
+{
+    list-style: none;
+    width: 750px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 83px;
+}
+.menu ul li
+{
+    width: 150px;
+    height: 30px;
+    float: left;
+    text-align: center;
+}
+.menu li>a
+{
+    color: #fff;
+    font-family: 黑体;
+    font-size: 16px;
+    text-decoration: none;
+}
+.banner
+{
+    width: 870px;
+    margin: 0 auto;
+}
+.b-l
+{
+    width: 110px;
+    height: 300px;
+    float: left;
+    margin-top: 91px;
+    margin-left: 17px;
+}
+.b-c
+{
+    width: 600px;
+    height: 395px;
+    float: left;
+    margin-top: 35px;
+}
+.b-c1
+{
+    width: 600px;
+    height: 335px;
+    border: 1px solid #666;
+}
+.b-r
+{
+    width: 140px;
+    height: 300px;
+    float: left;
+    margin-top: 91px;
+}
+.content1
+{
+    width: 1050px;
+    background: url("images/bottom.jpg") no-repeat bottom;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.content
+{
+    width: 790px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top:23px;
+    margin-bottom: 80px;
+}
+.content-l
+{
+    width: 585px;
+    float: left;
+    list-style: none;
+}
+.content-l li
+{
+    width: 183px;
+    height: 113px;
+    float: left;
+    border: 1px solid #b8b8b8;   
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.content-r
+{
+    width: 205px;
+    float: left;
+    margin-top: 15px;
+}
+.footer
+{
+    width: 1050px;
+    height: 125px;
+    background: url("images/footer.jpg") no-repeat;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer ul
+{
+    list-style: none;
+    width: 790px;   
+    margin: 0 auto;
+    margin-top: 55px;
+}
+.footer ul li
+{
+    width: 230px;
+    background: url("images/bird.jpg") no-repeat left;
+    float: left;
+    color: #fff;
+    padding-left: 30px;
+}
